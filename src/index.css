@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  color-scheme: dark;
+  font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e8eef8;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #1a2a44 0%, transparent 55%),
+    radial-gradient(900px 500px at 90% 0%, #16352f 0%, transparent 50%),
+    #0b1220;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+}
+
+button {
+  font: inherit;
+}
+
+a {
+  color: #7ec8ff;
+}

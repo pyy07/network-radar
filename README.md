@@ -59,7 +59,7 @@ npm run fetch
    - Value: 上一步的 Token
 3. Settings → Pages → Build and deployment → Source 选 **GitHub Actions**
 4. Actions 中手动运行 **Fetch Radar Data** 生成真实快照（可选；也可用 mock 先部署）
-5. 推送到 `main`/`master` 会触发 **Deploy GitHub Pages**  
+5. 推送到 `main`/`master` 会触发 **Deploy GitHub Pages**；Fetch 成功后也会自动接力部署（因 bot 推送默认不会再触发 push 工作流）  
    站点地址：`https://<user>.github.io/network-radar/`
 
 若仓库名不是 `network-radar`，请同步修改 [`vite.config.ts`](vite.config.ts) 中的 `base`。

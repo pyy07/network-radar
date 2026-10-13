@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T06:19:05.840Z",
+  "fetchedAt": "2026-10-13T19:06:36.883Z",
   "outages": [
     {
       "id": "1687",
@@ -62,7 +62,7 @@
       "id": "1684",
       "kind": "outage",
       "eventType": "OUTAGE",
-      "description": "Yandex, Russia's biggest internet company, shut down its data center in Sasovo, Ryazan, after a drone strike started a fire there.",
+      "description": "Yandex, Russia's biggest internet company, shut down its data centers in Sasovo, Ryazan, and later in Vladimir after drone strikes damaged both facilities.",
       "startDate": "2026-10-07T22:30:00Z",
       "endDate": null,
       "locations": [],
@@ -75,6 +75,21 @@
     }
   ],
   "anomalies": [
+    {
+      "id": "a4d1fd52-43cb-42d1-81e5-9051f0a0bf1c",
+      "kind": "anomaly",
+      "eventType": "TRAFFIC_ANOMALY",
+      "description": "Digicel Haiti",
+      "startDate": "2026-10-13T06:30:00Z",
+      "endDate": "2026-10-13T08:00:00Z",
+      "locations": [],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "AS",
+      "scope": "Digicel Haiti",
+      "linkedUrl": null,
+      "status": "VERIFIED"
+    },
     {
       "id": "994d9b10-4645-4cb2-814a-dd011fbc28fe",
       "kind": "anomaly",
@@ -548,174 +563,48 @@
   ],
   "bgpHijacks": [
     {
-      "id": "hijack-167732",
+      "id": "hijack-167839",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS48943 (KAPPER NETWORK-COMMUNICATIONS GmbH)",
-      "startDate": "2026-10-13T05:23:08.013",
-      "endDate": "2026-10-13T05:23:08.013",
-      "locations": [
-        "AT",
-        "AT"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:12",
-      "scope": "195.34.220.0/22",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167730",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS53347 (Premier Communications)",
-      "startDate": "2026-10-13T05:10:12.823",
-      "endDate": "2026-10-13T05:59:13.497",
-      "locations": [
-        "US",
-        "US"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:4",
-      "scope": "138.43.121.0/24",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167731",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS8796 (FASTNET DATA INC)",
-      "startDate": "2026-10-13T05:05:54.404",
-      "endDate": "2026-10-13T05:54:14.586",
-      "locations": [
-        "US",
-        "US"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:8",
-      "scope": "154.194.228.0/22",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167728",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS137831 (SHOPEE SINGAPORE PRIVATE LIMITED)",
-      "startDate": "2026-10-13T04:39:50.208",
-      "endDate": "2026-10-13T04:40:52.079",
-      "locations": [
-        "SG",
-        "SG"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:4",
-      "scope": "2402:e340:f::/48",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167729",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS10010 (TOKAI Communications Corporation)",
-      "startDate": "2026-10-13T04:31:45.746",
-      "endDate": "2026-10-13T04:31:45.746",
-      "locations": [
-        "JP",
-        "JP"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:8",
-      "scope": "203.178.12.0/24",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167503",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS263934 (InfoRR Solucoes em Tecnologia)",
-      "startDate": "2026-10-13T04:30:26.121",
-      "endDate": "2026-10-13T05:47:54.902",
+      "description": "疑似劫持 AS28663 (FLYS INTERATIVA LTDA)",
+      "startDate": "2026-10-13T18:42:41.624",
+      "endDate": "2026-10-13T18:43:12.286",
       "locations": [
         "BR",
-        "KR"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:2",
-      "scope": "108.165.140.0/24",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167725",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS34837 (Institute for Research in Fundamental Sciences)",
-      "startDate": "2026-10-13T04:29:53.503",
-      "endDate": "2026-10-13T04:38:26.659",
-      "locations": [
-        "IR",
-        "IR"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:8",
-      "scope": "81.12.12.0/24, 87.107.116.0/24, 87.107.117.0/24",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167726",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS20326 (TeraSwitch Networks Inc.)",
-      "startDate": "2026-10-13T04:29:33.205",
-      "endDate": "2026-10-13T04:29:33.205",
-      "locations": [
-        "US",
-        "US"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:8",
-      "scope": "154.198.176.0/21",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167724",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS203 (Level 3 Parent, LLC)",
-      "startDate": "2026-10-13T04:02:34.675",
-      "endDate": "2026-10-13T04:02:34.675",
-      "locations": [
-        "US",
         "US"
       ],
       "locationNames": [],
       "outageCause": null,
       "outageType": "confidence:4",
-      "scope": "63.106.6.0/24, 65.240.184.0/23",
+      "scope": "2607:1640:145::/48",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167722",
+      "id": "hijack-167837",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS135444 (PT Ikubaru Indonesia)",
-      "startDate": "2026-10-13T03:54:05.384",
-      "endDate": "2026-10-13T03:59:52.772",
+      "description": "疑似劫持 AS327708 (Airtel Rwanda Ltd)",
+      "startDate": "2026-10-13T18:30:36.498",
+      "endDate": "2026-10-13T18:30:36.498",
+      "locations": [
+        "RW",
+        "KE"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:8",
+      "scope": "102.0.122.0/24, 102.0.123.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167836",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS133798 (PT. Smartfren Telecom, Tbk)",
+      "startDate": "2026-10-13T18:02:24.890",
+      "endDate": "2026-10-13T18:17:10.910",
       "locations": [
         "ID",
         "ID"
@@ -723,53 +612,35 @@
       "locationNames": [],
       "outageCause": null,
       "outageType": "confidence:8",
-      "scope": "103.160.37.0/24",
+      "scope": "114.79.32.0/24, 114.79.46.0/24, 114.79.47.0/24",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167721",
+      "id": "hijack-167833",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS396356 (Latitude.sh)",
-      "startDate": "2026-10-13T03:21:04.130",
-      "endDate": "2026-10-13T03:21:33.234",
+      "description": "疑似劫持 AS264186 (AGT NET)",
+      "startDate": "2026-10-13T17:42:31.306",
+      "endDate": "2026-10-13T17:45:20.741",
       "locations": [
-        "US",
-        "TR"
+        "BR",
+        "BR"
       ],
       "locationNames": [],
       "outageCause": null,
-      "outageType": "confidence:10",
-      "scope": "2a0c:b641:a0::/44",
+      "outageType": "confidence:8",
+      "scope": "45.161.246.0/24, 45.161.247.0/24",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167719",
+      "id": "hijack-167834",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS4809 (China Telecom Next Generation Carrier Network)",
-      "startDate": "2026-10-13T02:30:55.659",
-      "endDate": "2026-10-13T02:33:09.095",
-      "locations": [
-        "CN",
-        "CN"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:2",
-      "scope": "240e:ff:c027::/48",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167720",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS10695 (Wal-Mart Stores, Inc.)",
-      "startDate": "2026-10-13T02:30:51.760",
-      "endDate": "2026-10-13T02:30:51.760",
+      "description": "疑似劫持 AS39997 (Guardian Life Insurance Company Of America)",
+      "startDate": "2026-10-13T17:37:56.777",
+      "endDate": "2026-10-13T17:37:56.777",
       "locations": [
         "US",
         "US"
@@ -777,35 +648,53 @@
       "locationNames": [],
       "outageCause": null,
       "outageType": "confidence:2",
-      "scope": "63.79.88.0/22",
+      "scope": "208.253.53.0/24",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167713",
+      "id": "hijack-167835",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS19969 (CyberCloud Professionals LLC)",
-      "startDate": "2026-10-13T02:28:30.586",
-      "endDate": "2026-10-13T04:53:40.593",
+      "description": "疑似劫持 AS11404 (Wave Broadband)",
+      "startDate": "2026-10-13T17:35:26.514",
+      "endDate": "2026-10-13T17:35:30.113",
       "locations": [
         "US",
         "US"
       ],
       "locationNames": [],
       "outageCause": null,
-      "outageType": "confidence:12",
-      "scope": "23.145.216.0/24, 142.202.95.0/24, 2602:fab5::/40",
+      "outageType": "confidence:2",
+      "scope": "208.13.192.0/18, 208.20.64.0/18, 208.21.64.0/18",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167717",
+      "id": "hijack-167827",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS19905 (Vercara, LLC)",
+      "startDate": "2026-10-13T17:29:36.962",
+      "endDate": "2026-10-13T17:29:36.962",
+      "locations": [
+        "US",
+        "US"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:2",
+      "scope": "208.253.53.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167829",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
       "description": "疑似劫持 AS7029 (Windstream Communications LLC)",
-      "startDate": "2026-10-13T02:27:27.954",
-      "endDate": "2026-10-13T02:30:29.022",
+      "startDate": "2026-10-13T17:28:25.634",
+      "endDate": "2026-10-13T17:35:30.032",
       "locations": [
         "US",
         "US"
@@ -818,12 +707,12 @@
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167715",
+      "id": "hijack-167830",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
       "description": "疑似劫持 AS209561 (D&V Global B.V.)",
-      "startDate": "2026-10-13T02:27:05.904",
-      "endDate": "2026-10-13T02:27:05.904",
+      "startDate": "2026-10-13T17:27:01.378",
+      "endDate": "2026-10-13T17:27:01.378",
       "locations": [
         "NL",
         "US"
@@ -836,12 +725,12 @@
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167714",
+      "id": "hijack-167831",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
       "description": "疑似劫持 AS28816 (Chess ICT Ltd)",
-      "startDate": "2026-10-13T02:26:52.483",
-      "endDate": "2026-10-13T02:26:52.483",
+      "startDate": "2026-10-13T17:26:22.063",
+      "endDate": "2026-10-13T17:26:22.063",
       "locations": [
         "GB",
         "GB"
@@ -854,12 +743,12 @@
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167718",
+      "id": "hijack-167832",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS32851 (Wal-Mart Stores, Inc.)",
-      "startDate": "2026-10-13T02:26:32.218",
-      "endDate": "2026-10-13T02:26:32.218",
+      "description": "疑似劫持 AS22773 (Cox Communications Inc.)",
+      "startDate": "2026-10-13T17:24:56.739",
+      "endDate": "2026-10-13T17:25:00.053",
       "locations": [
         "US",
         "US"
@@ -867,17 +756,17 @@
       "locationNames": [],
       "outageCause": null,
       "outageType": "confidence:2",
-      "scope": "63.79.88.0/22",
+      "scope": "208.13.192.0/18, 208.20.64.0/18, 208.21.64.0/18",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167716",
+      "id": "hijack-167828",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
       "description": "疑似劫持 AS20115 (Charter Communications LLC)",
-      "startDate": "2026-10-13T02:26:11.956",
-      "endDate": "2026-10-13T02:26:15.083",
+      "startDate": "2026-10-13T17:24:56.678",
+      "endDate": "2026-10-13T17:25:00.162",
       "locations": [
         "US",
         "US"
@@ -890,55 +779,181 @@
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167712",
+      "id": "hijack-167824",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS42861 (Foton Telecom CJSC)",
-      "startDate": "2026-10-13T02:11:33.288",
-      "endDate": "2026-10-13T02:11:33.288",
+      "description": "疑似劫持 AS6453 (TATA COMMUNICATIONS (AMERICA) INC)",
+      "startDate": "2026-10-13T17:04:35.365",
+      "endDate": "2026-10-13T18:04:08.079",
+      "locations": [
+        "US",
+        "BH"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:12",
+      "scope": "84.255.185.0/24, 88.201.6.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167823",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS134489 (S. B Link Network)",
+      "startDate": "2026-10-13T17:01:13.116",
+      "endDate": "2026-10-13T17:02:00.015",
+      "locations": [
+        "PK",
+        "PK"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:4",
+      "scope": "203.128.24.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167822",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS24186 (RailTel Corporation of India Ltd.)",
+      "startDate": "2026-10-13T16:56:12.741",
+      "endDate": "2026-10-13T17:02:32.791",
+      "locations": [
+        "IN",
+        "IN"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:4",
+      "scope": "103.212.30.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167819",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS45820 (TTSL-ISP DIVISION)",
+      "startDate": "2026-10-13T16:43:04.175",
+      "endDate": "2026-10-13T16:43:04.175",
+      "locations": [
+        "IN",
+        "IN"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:4",
+      "scope": "202.157.94.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167817",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS265080 (AD TELECOM)",
+      "startDate": "2026-10-13T16:08:26.216",
+      "endDate": "2026-10-13T17:33:13.681",
+      "locations": [
+        "BR",
+        "BR"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:8",
+      "scope": "45.180.35.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167816",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS19809 (NTT Global Networks Incorporated)",
+      "startDate": "2026-10-13T15:49:58.619",
+      "endDate": "2026-10-13T17:12:40.398",
+      "locations": [
+        "US",
+        "HK"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:2",
+      "scope": "119.31.174.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167815",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS12389 (PJSC Rostelecom)",
+      "startDate": "2026-10-13T15:37:58.645",
+      "endDate": "2026-10-13T15:37:58.645",
       "locations": [
         "RU",
         "RU"
       ],
       "locationNames": [],
       "outageCause": null,
-      "outageType": "confidence:10",
-      "scope": "77.91.65.0/24",
+      "outageType": "confidence:4",
+      "scope": "91.223.108.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167813",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS22866 (AECOM)",
+      "startDate": "2026-10-13T15:29:04.932",
+      "endDate": "2026-10-13T17:12:40.392",
+      "locations": [
+        "US",
+        "US"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:2",
+      "scope": "63.70.138.0/24",
       "linkedUrl": null,
       "status": "ACTIVE"
     }
   ],
   "bgpLeaks": [
     {
-      "id": "leak-638708",
+      "id": "leak-639319",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS4800 (PT Aplikanusa Lintasarta)",
-      "startDate": "2026-10-13T05:44:04",
-      "endDate": "2026-10-13T05:44:23",
+      "description": "路由泄漏 AS52927 (IBIPAR S/A)",
+      "startDate": "2026-10-13T18:44:38",
+      "endDate": "2026-10-13T18:44:38",
       "locations": [
-        "ID",
         "US",
-        "HK"
+        "BR",
+        "BR"
       ],
       "locationNames": [],
       "outageCause": null,
       "outageType": "type:1",
-      "scope": "prefixes:6",
+      "scope": "prefixes:4",
       "linkedUrl": null,
       "status": "ONGOING"
     },
     {
-      "id": "leak-638697",
+      "id": "leak-639308",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS397162 (Sumofiber)",
-      "startDate": "2026-10-13T05:32:52",
-      "endDate": "2026-10-13T05:32:52",
+      "description": "路由泄漏 AS199524 (G-Core Labs S.A.)",
+      "startDate": "2026-10-13T18:42:05",
+      "endDate": "2026-10-13T18:42:05",
       "locations": [
         "US",
         "US",
-        "US"
+        "LU"
       ],
       "locationNames": [],
       "outageCause": null,
@@ -948,69 +963,12 @@
       "status": "ONGOING"
     },
     {
-      "id": "leak-638695",
+      "id": "leak-639309",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS270042 (RED DOT TECHNOLOGIES, C.A.)",
-      "startDate": "2026-10-13T05:31:51",
-      "endDate": "2026-10-13T05:34:20",
-      "locations": [
-        "US",
-        "CO",
-        "VE"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:18",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638700",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS134840 (Myanmar Country Co., Ltd.)",
-      "startDate": "2026-10-13T05:31:28",
-      "endDate": "2026-10-13T05:48:29",
-      "locations": [
-        "MM",
-        "MM",
-        "MM"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638698",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS36962 (MTN Zambia)",
-      "startDate": "2026-10-13T05:28:09",
-      "endDate": "2026-10-13T05:28:27",
-      "locations": [
-        "ZA",
-        "GB",
-        "ZM"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638689",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS264963 (LUMIAR TELECOMUNICAÇÔES)",
-      "startDate": "2026-10-13T05:22:40",
-      "endDate": "2026-10-13T05:24:24",
+      "description": "路由泄漏 AS61786 (E. D. SERVIÇOS DE COMUNICAÇÕES LTDA)",
+      "startDate": "2026-10-13T18:39:52",
+      "endDate": "2026-10-13T18:39:55",
       "locations": [
         "BR",
         "BR",
@@ -1019,20 +977,20 @@
       "locationNames": [],
       "outageCause": null,
       "outageType": "type:1",
-      "scope": "prefixes:3",
+      "scope": "prefixes:1",
       "linkedUrl": null,
       "status": "ONGOING"
     },
     {
-      "id": "leak-638694",
+      "id": "leak-639267",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS264344 (AMAZONET TELECOMUNICACOES LTDA)",
-      "startDate": "2026-10-13T05:17:53",
-      "endDate": "2026-10-13T05:17:53",
+      "description": "路由泄漏 AS265086 (GUARATIBA TELECOM SERVICOS DE COMUNICACOES LTDA ME)",
+      "startDate": "2026-10-13T18:30:50",
+      "endDate": "2026-10-13T18:31:56",
       "locations": [
-        "BR",
-        "BR",
+        "US",
+        "CO",
         "BR"
       ],
       "locationNames": [],
@@ -1043,33 +1001,14 @@
       "status": "ONGOING"
     },
     {
-      "id": "leak-638690",
+      "id": "leak-639259",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS51765 (Oy Crea Nova Hosting Solution Ltd)",
-      "startDate": "2026-10-13T05:15:15",
-      "endDate": "2026-10-13T05:15:15",
+      "description": "路由泄漏 AS47562 (Fast Link Ltd)",
+      "startDate": "2026-10-13T18:29:02",
+      "endDate": "2026-10-13T18:31:45",
       "locations": [
-        "US",
         "GB",
-        "FI"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638680",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS34858 (Telezon-Seti LLC)",
-      "startDate": "2026-10-13T05:00:23",
-      "endDate": "2026-10-13T05:09:41",
-      "locations": [
-        "RU",
         "RU",
         "RU"
       ],
@@ -1081,12 +1020,50 @@
       "status": "ONGOING"
     },
     {
-      "id": "leak-638676",
+      "id": "leak-639263",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS262989 (CLICKNET BRASIL INFORMATICA E TELECOMUNICACOES LT)",
-      "startDate": "2026-10-13T04:35:31",
-      "endDate": "2026-10-13T05:47:04",
+      "description": "路由泄漏 AS3255 (State Enterprise Scientific and Telecommunication Centre \"Ukrainian Academic and Research Network\" of the Institute for Condensed Matter Physics of the National Academy of Science of Ukraine (UARNet))",
+      "startDate": "2026-10-13T18:27:14",
+      "endDate": "2026-10-13T18:27:15",
+      "locations": [
+        "UA",
+        "US",
+        "GB"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639264",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS268581 (QNAX LTDA)",
+      "startDate": "2026-10-13T18:20:47",
+      "endDate": "2026-10-13T18:20:47",
+      "locations": [
+        "PA",
+        "BR",
+        "BR"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639253",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS268267 (INFONET TELECOMUNICACOES LTDA)",
+      "startDate": "2026-10-13T18:16:25",
+      "endDate": "2026-10-13T18:42:42",
       "locations": [
         "US",
         "BR",
@@ -1100,16 +1077,16 @@
       "status": "ONGOING"
     },
     {
-      "id": "leak-638675",
+      "id": "leak-639252",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS2611 (BELNET)",
-      "startDate": "2026-10-13T04:31:21",
-      "endDate": "2026-10-13T04:31:27",
+      "description": "路由泄漏 AS262480 (CONNECT10 INTERNET EIRELI)",
+      "startDate": "2026-10-13T18:11:40",
+      "endDate": "2026-10-13T18:25:01",
       "locations": [
-        "US",
-        "BE",
-        "NL"
+        "BR",
+        "BR",
+        "BR"
       ],
       "locationNames": [],
       "outageCause": null,
@@ -1119,15 +1096,16 @@
       "status": "ONGOING"
     },
     {
-      "id": "leak-638669",
+      "id": "leak-639251",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS153740",
-      "startDate": "2026-10-13T04:20:07",
-      "endDate": "2026-10-13T04:20:15",
+      "description": "路由泄漏 AS62663 (Telecall)",
+      "startDate": "2026-10-13T18:11:38",
+      "endDate": "2026-10-13T18:11:40",
       "locations": [
-        "BT",
-        "BT"
+        "US",
+        "US",
+        "US"
       ],
       "locationNames": [],
       "outageCause": null,
@@ -1137,53 +1115,16 @@
       "status": "ONGOING"
     },
     {
-      "id": "leak-638664",
+      "id": "leak-639240",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS153697",
-      "startDate": "2026-10-13T04:11:40",
-      "endDate": "2026-10-13T04:11:40",
-      "locations": [
-        "ID",
-        "ID"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638665",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS269125 (Netgaucha Servicos de Internet Eireli - ME)",
-      "startDate": "2026-10-13T04:09:37",
-      "endDate": "2026-10-13T04:09:37",
-      "locations": [
-        "BR",
-        "BR",
-        "BR"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638661",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS20661 (State Company of Electro Communications Turkmentelecom)",
-      "startDate": "2026-10-13T03:56:17",
-      "endDate": "2026-10-13T05:13:19",
+      "description": "路由泄漏 AS139057 (Edgenext Legend Dynasty Pte. Ltd.)",
+      "startDate": "2026-10-13T18:01:08",
+      "endDate": "2026-10-13T18:17:58",
       "locations": [
         "RU",
-        "TM",
-        "UZ"
+        "US",
+        "SG"
       ],
       "locationNames": [],
       "outageCause": null,
@@ -1193,50 +1134,12 @@
       "status": "ONGOING"
     },
     {
-      "id": "leak-638651",
+      "id": "leak-639239",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS29687 (Geodim Ltd.)",
-      "startDate": "2026-10-13T03:39:33",
-      "endDate": "2026-10-13T03:39:33",
-      "locations": [
-        "SE",
-        "BG",
-        "BG"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638658",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS142591 (MYTEK TRADING PTY LTD)",
-      "startDate": "2026-10-13T03:38:39",
-      "endDate": "2026-10-13T03:38:44",
-      "locations": [
-        "SG",
-        "MY",
-        "AU"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:7",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638650",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS40805 (JMF Solutions, Inc)",
-      "startDate": "2026-10-13T03:34:23",
-      "endDate": "2026-10-13T05:21:21",
+      "description": "路由泄漏 AS53745 (Nordklett Inc.)",
+      "startDate": "2026-10-13T17:57:18",
+      "endDate": "2026-10-13T18:39:39",
       "locations": [
         "US",
         "US",
@@ -1250,35 +1153,149 @@
       "status": "ONGOING"
     },
     {
-      "id": "leak-638657",
+      "id": "leak-639237",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS9304 (HGC Global Communications Limited)",
-      "startDate": "2026-10-13T03:30:29",
-      "endDate": "2026-10-13T04:07:51",
+      "description": "路由泄漏 AS22869 (CABLECOLOR S.A.)",
+      "startDate": "2026-10-13T17:54:09",
+      "endDate": "2026-10-13T17:54:09",
       "locations": [
-        "US",
-        "HK",
-        "HK"
+        "ES",
+        "HN",
+        "US"
       ],
       "locationNames": [],
       "outageCause": null,
       "outageType": "type:1",
-      "scope": "prefixes:18",
+      "scope": "prefixes:1",
       "linkedUrl": null,
       "status": "ONGOING"
     },
     {
-      "id": "leak-638648",
+      "id": "leak-639233",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS262287 (Latitude.sh LTDA)",
-      "startDate": "2026-10-13T03:21:13",
-      "endDate": "2026-10-13T03:21:16",
+      "description": "路由泄漏 AS206446 (CLOUD LEASE Ltd)",
+      "startDate": "2026-10-13T17:52:42",
+      "endDate": "2026-10-13T17:52:42",
       "locations": [
-        "SE",
-        "BR",
-        "BR"
+        "IL",
+        "IL",
+        "IL"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639229",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS20723 (AVONET, s.r.o.)",
+      "startDate": "2026-10-13T17:49:06",
+      "endDate": "2026-10-13T17:49:34",
+      "locations": [
+        "US",
+        "US",
+        "CZ"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639162",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS206119 (Veganet Teknolojileri ve Hizmetleri LTD STI)",
+      "startDate": "2026-10-13T17:34:11",
+      "endDate": "2026-10-13T17:34:12",
+      "locations": [
+        "GB",
+        "TR",
+        "TR"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:2",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639154",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS141018 (UBX Cloud Private Limited)",
+      "startDate": "2026-10-13T17:17:38",
+      "endDate": "2026-10-13T18:38:33",
+      "locations": [
+        "IN",
+        "IN",
+        "IN"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639152",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS207594 (Connectivia S.r.l)",
+      "startDate": "2026-10-13T17:10:35",
+      "endDate": "2026-10-13T17:10:35",
+      "locations": [
+        "IT",
+        "IT",
+        "IT"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639143",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS55884 (Orion Virtualisation Solutions Pty Limited)",
+      "startDate": "2026-10-13T17:07:23",
+      "endDate": "2026-10-13T17:49:29",
+      "locations": [
+        "AU",
+        "AU",
+        "AU"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:2",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639144",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS136106 (PT. Mega Akses Persada)",
+      "startDate": "2026-10-13T17:04:29",
+      "endDate": "2026-10-13T17:04:29",
+      "locations": [
+        "US",
+        "SG",
+        "ID"
       ],
       "locationNames": [],
       "outageCause": null,
@@ -1307,221 +1324,164 @@
       1801907313,
       1626015185,
       1842849205,
-      398481426
+      1477818696
     ]
   },
   "email": {
     "spam": {
-      "NOT_SPAM": 96.012,
-      "SPAM": 3.988
+      "NOT_SPAM": 96.2011,
+      "SPAM": 3.7989
     },
     "malicious": {
-      "NOT_MALICIOUS": 92.1421,
-      "MALICIOUS": 7.8579
+      "NOT_MALICIOUS": 91.9045,
+      "MALICIOUS": 8.0955
     },
     "spoof": {
-      "NOT_SPOOF": 88.0325,
-      "SPOOF": 11.9675
+      "NOT_SPOOF": 87.9893,
+      "SPOOF": 12.0107
     },
     "threatCategory": {
-      "Scam": 70.462,
-      "Link": 69.7387,
-      "IPReputation": 62.3392,
-      "IdentityDeception": 38.8552,
-      "BrandImpersonation": 36.109,
-      "DomainReputation": 29.7202,
-      "DomainAge": 22.0915,
-      "ASNReputation": 12.8336,
-      "CredentialHarvester": 7.9422,
-      "AccountImpersonation": 7.6896,
-      "Spam": 7.5688,
-      "DomainImpersonation": 6.4918,
-      "Extortion": 5.2676,
-      "CustomerConfiguration": 4.9687,
-      "Attachment": 2.4422,
-      "FingerprintMatch": 1.9451,
-      "StructureMatch": 1.7957,
-      "FreeEmail": 1.7495,
-      "FileSharing": 1.4084,
-      "AccountCompromise": 1.231,
-      "NameImpersonation": 1.0406,
-      "Dropper": 0.9775,
-      "Downloader": 0.8367,
-      "BEC": 0.5718,
-      "VoicePhishing": 0.3732,
-      "DGA": 0.3454,
-      "SignatureDetectedThreat": 0.3237,
-      "FreeDomain": 0.3095,
-      "Financial": 0.2628,
-      "SalesOutreach": 0.196,
-      "CommandExecution": 0.1908,
-      "SandboxEvasion": 0.1894,
-      "InvoiceCompromise": 0.1672,
-      "IPBehavior": 0.1621,
-      "CalendarPhishing": 0.1404,
-      "InformationStealer": 0.0948,
-      "BECType1": 0.0686,
-      "TargetDevelopment": 0.0646,
-      "AcademicJournal": 0.0624,
-      "EncryptedEmail": 0.055,
-      "ThreadHijack": 0.034,
-      "Backdoor": 0.0268,
-      "EmailAddressReputation": 0.0247,
-      "URLShortener": 0.0244,
-      "EncryptedAttachment": 0.0173,
-      "PreviousDetection": 0.0129,
-      "Exploit": 0.0112,
-      "RequestedDetection": 0.0085,
-      "QRCode": 0.0069,
-      "DomainBehavior": 0.0057,
+      "Scam": 69.5877,
+      "Link": 69.3227,
+      "IPReputation": 63.2532,
+      "IdentityDeception": 39.341,
+      "BrandImpersonation": 36.6616,
+      "DomainReputation": 29.1441,
+      "DomainAge": 21.5809,
+      "ASNReputation": 13.2047,
+      "Spam": 7.8812,
+      "CredentialHarvester": 7.8748,
+      "AccountImpersonation": 7.7193,
+      "DomainImpersonation": 6.5106,
+      "Extortion": 6.2576,
+      "CustomerConfiguration": 5.0877,
+      "Attachment": 2.2491,
+      "FingerprintMatch": 1.8807,
+      "FreeEmail": 1.7084,
+      "StructureMatch": 1.6577,
+      "FileSharing": 1.3524,
+      "AccountCompromise": 1.2788,
+      "Dropper": 0.9351,
+      "Downloader": 0.8075,
+      "NameImpersonation": 0.7944,
+      "BEC": 0.569,
+      "DGA": 0.3532,
+      "VoicePhishing": 0.3526,
+      "SignatureDetectedThreat": 0.3479,
+      "FreeDomain": 0.2903,
+      "Financial": 0.2461,
+      "SalesOutreach": 0.2018,
+      "CommandExecution": 0.1859,
+      "InvoiceCompromise": 0.1556,
+      "CalendarPhishing": 0.1517,
+      "IPBehavior": 0.1513,
+      "InformationStealer": 0.0919,
+      "BECType1": 0.0682,
+      "TargetDevelopment": 0.0671,
+      "AcademicJournal": 0.059,
+      "EncryptedEmail": 0.0518,
+      "SandboxEvasion": 0.0408,
+      "ThreadHijack": 0.0324,
+      "EmailAddressReputation": 0.0279,
+      "URLShortener": 0.0234,
+      "EncryptedAttachment": 0.0166,
+      "Backdoor": 0.0144,
+      "PreviousDetection": 0.0127,
+      "Exploit": 0.011,
+      "RequestedDetection": 0.0084,
+      "QRCode": 0.0071,
+      "DomainBehavior": 0.0058,
       "Ransomware": 0.0015,
       "BECType2": 0.0014,
+      "Fear": 0.0003,
       "BECType4": 0.0002,
-      "Fear": 0.0001,
       "Adult": 0
     },
     "arc": {
-      "NONE": 69.7391,
-      "PASS": 29.6538,
-      "FAIL": 0.607
+      "NONE": 69.8703,
+      "PASS": 29.5248,
+      "FAIL": 0.6049
     },
     "dkim": {
-      "PASS": 91.558,
-      "NONE": 6.3768,
-      "FAIL": 2.0651
+      "PASS": 91.2479,
+      "NONE": 6.6127,
+      "FAIL": 2.1394
     },
     "dmarc": {
-      "PASS": 90.2523,
-      "FAIL": 4.933,
-      "NONE": 4.8147
+      "PASS": 90.1412,
+      "FAIL": 5.0989,
+      "NONE": 4.7599
     },
     "spf": {
-      "PASS": 80.6519,
-      "FAIL": 16.3199,
-      "NONE": 3.0282
+      "PASS": 80.4188,
+      "FAIL": 16.454,
+      "NONE": 3.1272
     }
   },
   "events": [
     {
-      "id": "leak-638708",
+      "id": "leak-639319",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS4800 (PT Aplikanusa Lintasarta)",
-      "startDate": "2026-10-13T05:44:04",
-      "endDate": "2026-10-13T05:44:23",
+      "description": "路由泄漏 AS52927 (IBIPAR S/A)",
+      "startDate": "2026-10-13T18:44:38",
+      "endDate": "2026-10-13T18:44:38",
       "locations": [
-        "ID",
         "US",
-        "HK"
+        "BR",
+        "BR"
       ],
       "locationNames": [],
       "outageCause": null,
       "outageType": "type:1",
-      "scope": "prefixes:6",
+      "scope": "prefixes:4",
       "linkedUrl": null,
       "status": "ONGOING"
     },
     {
-      "id": "leak-638697",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS397162 (Sumofiber)",
-      "startDate": "2026-10-13T05:32:52",
-      "endDate": "2026-10-13T05:32:52",
+      "id": "hijack-167839",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS28663 (FLYS INTERATIVA LTDA)",
+      "startDate": "2026-10-13T18:42:41.624",
+      "endDate": "2026-10-13T18:43:12.286",
       "locations": [
-        "US",
-        "US",
+        "BR",
         "US"
       ],
       "locationNames": [],
       "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638695",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS270042 (RED DOT TECHNOLOGIES, C.A.)",
-      "startDate": "2026-10-13T05:31:51",
-      "endDate": "2026-10-13T05:34:20",
-      "locations": [
-        "US",
-        "CO",
-        "VE"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:18",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638700",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS134840 (Myanmar Country Co., Ltd.)",
-      "startDate": "2026-10-13T05:31:28",
-      "endDate": "2026-10-13T05:48:29",
-      "locations": [
-        "MM",
-        "MM",
-        "MM"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638698",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS36962 (MTN Zambia)",
-      "startDate": "2026-10-13T05:28:09",
-      "endDate": "2026-10-13T05:28:27",
-      "locations": [
-        "ZA",
-        "GB",
-        "ZM"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "hijack-167732",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS48943 (KAPPER NETWORK-COMMUNICATIONS GmbH)",
-      "startDate": "2026-10-13T05:23:08.013",
-      "endDate": "2026-10-13T05:23:08.013",
-      "locations": [
-        "AT",
-        "AT"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:12",
-      "scope": "195.34.220.0/22",
+      "outageType": "confidence:4",
+      "scope": "2607:1640:145::/48",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "leak-638689",
+      "id": "leak-639308",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS264963 (LUMIAR TELECOMUNICAÇÔES)",
-      "startDate": "2026-10-13T05:22:40",
-      "endDate": "2026-10-13T05:24:24",
+      "description": "路由泄漏 AS199524 (G-Core Labs S.A.)",
+      "startDate": "2026-10-13T18:42:05",
+      "endDate": "2026-10-13T18:42:05",
+      "locations": [
+        "US",
+        "US",
+        "LU"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639309",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS61786 (E. D. SERVIÇOS DE COMUNICAÇÕES LTDA)",
+      "startDate": "2026-10-13T18:39:52",
+      "endDate": "2026-10-13T18:39:55",
       "locations": [
         "BR",
         "BR",
@@ -1530,20 +1490,20 @@
       "locationNames": [],
       "outageCause": null,
       "outageType": "type:1",
-      "scope": "prefixes:3",
+      "scope": "prefixes:1",
       "linkedUrl": null,
       "status": "ONGOING"
     },
     {
-      "id": "leak-638694",
+      "id": "leak-639267",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS264344 (AMAZONET TELECOMUNICACOES LTDA)",
-      "startDate": "2026-10-13T05:17:53",
-      "endDate": "2026-10-13T05:17:53",
+      "description": "路由泄漏 AS265086 (GUARATIBA TELECOM SERVICOS DE COMUNICACOES LTDA ME)",
+      "startDate": "2026-10-13T18:30:50",
+      "endDate": "2026-10-13T18:31:56",
       "locations": [
-        "BR",
-        "BR",
+        "US",
+        "CO",
         "BR"
       ],
       "locationNames": [],
@@ -1554,69 +1514,32 @@
       "status": "ONGOING"
     },
     {
-      "id": "leak-638690",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS51765 (Oy Crea Nova Hosting Solution Ltd)",
-      "startDate": "2026-10-13T05:15:15",
-      "endDate": "2026-10-13T05:15:15",
-      "locations": [
-        "US",
-        "GB",
-        "FI"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "hijack-167730",
+      "id": "hijack-167837",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS53347 (Premier Communications)",
-      "startDate": "2026-10-13T05:10:12.823",
-      "endDate": "2026-10-13T05:59:13.497",
+      "description": "疑似劫持 AS327708 (Airtel Rwanda Ltd)",
+      "startDate": "2026-10-13T18:30:36.498",
+      "endDate": "2026-10-13T18:30:36.498",
       "locations": [
-        "US",
-        "US"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:4",
-      "scope": "138.43.121.0/24",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167731",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS8796 (FASTNET DATA INC)",
-      "startDate": "2026-10-13T05:05:54.404",
-      "endDate": "2026-10-13T05:54:14.586",
-      "locations": [
-        "US",
-        "US"
+        "RW",
+        "KE"
       ],
       "locationNames": [],
       "outageCause": null,
       "outageType": "confidence:8",
-      "scope": "154.194.228.0/22",
+      "scope": "102.0.122.0/24, 102.0.123.0/24",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "leak-638680",
+      "id": "leak-639259",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS34858 (Telezon-Seti LLC)",
-      "startDate": "2026-10-13T05:00:23",
-      "endDate": "2026-10-13T05:09:41",
+      "description": "路由泄漏 AS47562 (Fast Link Ltd)",
+      "startDate": "2026-10-13T18:29:02",
+      "endDate": "2026-10-13T18:31:45",
       "locations": [
-        "RU",
+        "GB",
         "RU",
         "RU"
       ],
@@ -1628,381 +1551,293 @@
       "status": "ONGOING"
     },
     {
-      "id": "hijack-167728",
+      "id": "leak-639263",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS3255 (State Enterprise Scientific and Telecommunication Centre \"Ukrainian Academic and Research Network\" of the Institute for Condensed Matter Physics of the National Academy of Science of Ukraine (UARNet))",
+      "startDate": "2026-10-13T18:27:14",
+      "endDate": "2026-10-13T18:27:15",
+      "locations": [
+        "UA",
+        "US",
+        "GB"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639264",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS268581 (QNAX LTDA)",
+      "startDate": "2026-10-13T18:20:47",
+      "endDate": "2026-10-13T18:20:47",
+      "locations": [
+        "PA",
+        "BR",
+        "BR"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639253",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS268267 (INFONET TELECOMUNICACOES LTDA)",
+      "startDate": "2026-10-13T18:16:25",
+      "endDate": "2026-10-13T18:42:42",
+      "locations": [
+        "US",
+        "BR",
+        "BR"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639252",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS262480 (CONNECT10 INTERNET EIRELI)",
+      "startDate": "2026-10-13T18:11:40",
+      "endDate": "2026-10-13T18:25:01",
+      "locations": [
+        "BR",
+        "BR",
+        "BR"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639251",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS62663 (Telecall)",
+      "startDate": "2026-10-13T18:11:38",
+      "endDate": "2026-10-13T18:11:40",
+      "locations": [
+        "US",
+        "US",
+        "US"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:2",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "hijack-167836",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS137831 (SHOPEE SINGAPORE PRIVATE LIMITED)",
-      "startDate": "2026-10-13T04:39:50.208",
-      "endDate": "2026-10-13T04:40:52.079",
+      "description": "疑似劫持 AS133798 (PT. Smartfren Telecom, Tbk)",
+      "startDate": "2026-10-13T18:02:24.890",
+      "endDate": "2026-10-13T18:17:10.910",
       "locations": [
-        "SG",
+        "ID",
+        "ID"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:8",
+      "scope": "114.79.32.0/24, 114.79.46.0/24, 114.79.47.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "leak-639240",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS139057 (Edgenext Legend Dynasty Pte. Ltd.)",
+      "startDate": "2026-10-13T18:01:08",
+      "endDate": "2026-10-13T18:17:58",
+      "locations": [
+        "RU",
+        "US",
         "SG"
       ],
       "locationNames": [],
       "outageCause": null,
-      "outageType": "confidence:4",
-      "scope": "2402:e340:f::/48",
+      "outageType": "type:1",
+      "scope": "prefixes:2",
       "linkedUrl": null,
-      "status": "ACTIVE"
+      "status": "ONGOING"
     },
     {
-      "id": "leak-638676",
+      "id": "leak-639239",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS262989 (CLICKNET BRASIL INFORMATICA E TELECOMUNICACOES LT)",
-      "startDate": "2026-10-13T04:35:31",
-      "endDate": "2026-10-13T05:47:04",
+      "description": "路由泄漏 AS53745 (Nordklett Inc.)",
+      "startDate": "2026-10-13T17:57:18",
+      "endDate": "2026-10-13T18:39:39",
       "locations": [
         "US",
+        "US",
+        "US"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639237",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS22869 (CABLECOLOR S.A.)",
+      "startDate": "2026-10-13T17:54:09",
+      "endDate": "2026-10-13T17:54:09",
+      "locations": [
+        "ES",
+        "HN",
+        "US"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639233",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS206446 (CLOUD LEASE Ltd)",
+      "startDate": "2026-10-13T17:52:42",
+      "endDate": "2026-10-13T17:52:42",
+      "locations": [
+        "IL",
+        "IL",
+        "IL"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639229",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS20723 (AVONET, s.r.o.)",
+      "startDate": "2026-10-13T17:49:06",
+      "endDate": "2026-10-13T17:49:34",
+      "locations": [
+        "US",
+        "US",
+        "CZ"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "hijack-167833",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS264186 (AGT NET)",
+      "startDate": "2026-10-13T17:42:31.306",
+      "endDate": "2026-10-13T17:45:20.741",
+      "locations": [
         "BR",
         "BR"
       ],
       "locationNames": [],
       "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "hijack-167729",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS10010 (TOKAI Communications Corporation)",
-      "startDate": "2026-10-13T04:31:45.746",
-      "endDate": "2026-10-13T04:31:45.746",
-      "locations": [
-        "JP",
-        "JP"
-      ],
-      "locationNames": [],
-      "outageCause": null,
       "outageType": "confidence:8",
-      "scope": "203.178.12.0/24",
+      "scope": "45.161.246.0/24, 45.161.247.0/24",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "leak-638675",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS2611 (BELNET)",
-      "startDate": "2026-10-13T04:31:21",
-      "endDate": "2026-10-13T04:31:27",
-      "locations": [
-        "US",
-        "BE",
-        "NL"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "hijack-167503",
+      "id": "hijack-167834",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS263934 (InfoRR Solucoes em Tecnologia)",
-      "startDate": "2026-10-13T04:30:26.121",
-      "endDate": "2026-10-13T05:47:54.902",
+      "description": "疑似劫持 AS39997 (Guardian Life Insurance Company Of America)",
+      "startDate": "2026-10-13T17:37:56.777",
+      "endDate": "2026-10-13T17:37:56.777",
       "locations": [
-        "BR",
-        "KR"
+        "US",
+        "US"
       ],
       "locationNames": [],
       "outageCause": null,
       "outageType": "confidence:2",
-      "scope": "108.165.140.0/24",
+      "scope": "208.253.53.0/24",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167725",
+      "id": "hijack-167835",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS34837 (Institute for Research in Fundamental Sciences)",
-      "startDate": "2026-10-13T04:29:53.503",
-      "endDate": "2026-10-13T04:38:26.659",
-      "locations": [
-        "IR",
-        "IR"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:8",
-      "scope": "81.12.12.0/24, 87.107.116.0/24, 87.107.117.0/24",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167726",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS20326 (TeraSwitch Networks Inc.)",
-      "startDate": "2026-10-13T04:29:33.205",
-      "endDate": "2026-10-13T04:29:33.205",
+      "description": "疑似劫持 AS11404 (Wave Broadband)",
+      "startDate": "2026-10-13T17:35:26.514",
+      "endDate": "2026-10-13T17:35:30.113",
       "locations": [
         "US",
         "US"
       ],
       "locationNames": [],
       "outageCause": null,
-      "outageType": "confidence:8",
-      "scope": "154.198.176.0/21",
+      "outageType": "confidence:2",
+      "scope": "208.13.192.0/18, 208.20.64.0/18, 208.21.64.0/18",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "leak-638669",
+      "id": "leak-639162",
       "kind": "bgp_leak",
       "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS153740",
-      "startDate": "2026-10-13T04:20:07",
-      "endDate": "2026-10-13T04:20:15",
+      "description": "路由泄漏 AS206119 (Veganet Teknolojileri ve Hizmetleri LTD STI)",
+      "startDate": "2026-10-13T17:34:11",
+      "endDate": "2026-10-13T17:34:12",
       "locations": [
-        "BT",
-        "BT"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:2",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638664",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS153697",
-      "startDate": "2026-10-13T04:11:40",
-      "endDate": "2026-10-13T04:11:40",
-      "locations": [
-        "ID",
-        "ID"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638665",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS269125 (Netgaucha Servicos de Internet Eireli - ME)",
-      "startDate": "2026-10-13T04:09:37",
-      "endDate": "2026-10-13T04:09:37",
-      "locations": [
-        "BR",
-        "BR",
-        "BR"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "hijack-167724",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS203 (Level 3 Parent, LLC)",
-      "startDate": "2026-10-13T04:02:34.675",
-      "endDate": "2026-10-13T04:02:34.675",
-      "locations": [
-        "US",
-        "US"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:4",
-      "scope": "63.106.6.0/24, 65.240.184.0/23",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "leak-638661",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS20661 (State Company of Electro Communications Turkmentelecom)",
-      "startDate": "2026-10-13T03:56:17",
-      "endDate": "2026-10-13T05:13:19",
-      "locations": [
-        "RU",
-        "TM",
-        "UZ"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:2",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "hijack-167722",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS135444 (PT Ikubaru Indonesia)",
-      "startDate": "2026-10-13T03:54:05.384",
-      "endDate": "2026-10-13T03:59:52.772",
-      "locations": [
-        "ID",
-        "ID"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:8",
-      "scope": "103.160.37.0/24",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "leak-638651",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS29687 (Geodim Ltd.)",
-      "startDate": "2026-10-13T03:39:33",
-      "endDate": "2026-10-13T03:39:33",
-      "locations": [
-        "SE",
-        "BG",
-        "BG"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638658",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS142591 (MYTEK TRADING PTY LTD)",
-      "startDate": "2026-10-13T03:38:39",
-      "endDate": "2026-10-13T03:38:44",
-      "locations": [
-        "SG",
-        "MY",
-        "AU"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:7",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638650",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS40805 (JMF Solutions, Inc)",
-      "startDate": "2026-10-13T03:34:23",
-      "endDate": "2026-10-13T05:21:21",
-      "locations": [
-        "US",
-        "US",
-        "US"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:1",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638657",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS9304 (HGC Global Communications Limited)",
-      "startDate": "2026-10-13T03:30:29",
-      "endDate": "2026-10-13T04:07:51",
-      "locations": [
-        "US",
-        "HK",
-        "HK"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:18",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "leak-638648",
-      "kind": "bgp_leak",
-      "eventType": "BGP_LEAK",
-      "description": "路由泄漏 AS262287 (Latitude.sh LTDA)",
-      "startDate": "2026-10-13T03:21:13",
-      "endDate": "2026-10-13T03:21:16",
-      "locations": [
-        "SE",
-        "BR",
-        "BR"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "type:1",
-      "scope": "prefixes:2",
-      "linkedUrl": null,
-      "status": "ONGOING"
-    },
-    {
-      "id": "hijack-167721",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS396356 (Latitude.sh)",
-      "startDate": "2026-10-13T03:21:04.130",
-      "endDate": "2026-10-13T03:21:33.234",
-      "locations": [
-        "US",
+        "GB",
+        "TR",
         "TR"
       ],
       "locationNames": [],
       "outageCause": null,
-      "outageType": "confidence:10",
-      "scope": "2a0c:b641:a0::/44",
+      "outageType": "type:1",
+      "scope": "prefixes:2",
       "linkedUrl": null,
-      "status": "ACTIVE"
+      "status": "ONGOING"
     },
     {
-      "id": "hijack-167719",
+      "id": "hijack-167827",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS4809 (China Telecom Next Generation Carrier Network)",
-      "startDate": "2026-10-13T02:30:55.659",
-      "endDate": "2026-10-13T02:33:09.095",
-      "locations": [
-        "CN",
-        "CN"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:2",
-      "scope": "240e:ff:c027::/48",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167720",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS10695 (Wal-Mart Stores, Inc.)",
-      "startDate": "2026-10-13T02:30:51.760",
-      "endDate": "2026-10-13T02:30:51.760",
+      "description": "疑似劫持 AS19905 (Vercara, LLC)",
+      "startDate": "2026-10-13T17:29:36.962",
+      "endDate": "2026-10-13T17:29:36.962",
       "locations": [
         "US",
         "US"
@@ -2010,35 +1845,17 @@
       "locationNames": [],
       "outageCause": null,
       "outageType": "confidence:2",
-      "scope": "63.79.88.0/22",
+      "scope": "208.253.53.0/24",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167713",
-      "kind": "bgp_hijack",
-      "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS19969 (CyberCloud Professionals LLC)",
-      "startDate": "2026-10-13T02:28:30.586",
-      "endDate": "2026-10-13T04:53:40.593",
-      "locations": [
-        "US",
-        "US"
-      ],
-      "locationNames": [],
-      "outageCause": null,
-      "outageType": "confidence:12",
-      "scope": "23.145.216.0/24, 142.202.95.0/24, 2602:fab5::/40",
-      "linkedUrl": null,
-      "status": "ACTIVE"
-    },
-    {
-      "id": "hijack-167717",
+      "id": "hijack-167829",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
       "description": "疑似劫持 AS7029 (Windstream Communications LLC)",
-      "startDate": "2026-10-13T02:27:27.954",
-      "endDate": "2026-10-13T02:30:29.022",
+      "startDate": "2026-10-13T17:28:25.634",
+      "endDate": "2026-10-13T17:35:30.032",
       "locations": [
         "US",
         "US"
@@ -2051,12 +1868,12 @@
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167715",
+      "id": "hijack-167830",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
       "description": "疑似劫持 AS209561 (D&V Global B.V.)",
-      "startDate": "2026-10-13T02:27:05.904",
-      "endDate": "2026-10-13T02:27:05.904",
+      "startDate": "2026-10-13T17:27:01.378",
+      "endDate": "2026-10-13T17:27:01.378",
       "locations": [
         "NL",
         "US"
@@ -2069,12 +1886,12 @@
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167714",
+      "id": "hijack-167831",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
       "description": "疑似劫持 AS28816 (Chess ICT Ltd)",
-      "startDate": "2026-10-13T02:26:52.483",
-      "endDate": "2026-10-13T02:26:52.483",
+      "startDate": "2026-10-13T17:26:22.063",
+      "endDate": "2026-10-13T17:26:22.063",
       "locations": [
         "GB",
         "GB"
@@ -2087,12 +1904,12 @@
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167718",
+      "id": "hijack-167832",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS32851 (Wal-Mart Stores, Inc.)",
-      "startDate": "2026-10-13T02:26:32.218",
-      "endDate": "2026-10-13T02:26:32.218",
+      "description": "疑似劫持 AS22773 (Cox Communications Inc.)",
+      "startDate": "2026-10-13T17:24:56.739",
+      "endDate": "2026-10-13T17:25:00.053",
       "locations": [
         "US",
         "US"
@@ -2100,17 +1917,17 @@
       "locationNames": [],
       "outageCause": null,
       "outageType": "confidence:2",
-      "scope": "63.79.88.0/22",
+      "scope": "208.13.192.0/18, 208.20.64.0/18, 208.21.64.0/18",
       "linkedUrl": null,
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167716",
+      "id": "hijack-167828",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
       "description": "疑似劫持 AS20115 (Charter Communications LLC)",
-      "startDate": "2026-10-13T02:26:11.956",
-      "endDate": "2026-10-13T02:26:15.083",
+      "startDate": "2026-10-13T17:24:56.678",
+      "endDate": "2026-10-13T17:25:00.162",
       "locations": [
         "US",
         "US"
@@ -2123,22 +1940,239 @@
       "status": "ACTIVE"
     },
     {
-      "id": "hijack-167712",
+      "id": "leak-639154",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS141018 (UBX Cloud Private Limited)",
+      "startDate": "2026-10-13T17:17:38",
+      "endDate": "2026-10-13T18:38:33",
+      "locations": [
+        "IN",
+        "IN",
+        "IN"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639152",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS207594 (Connectivia S.r.l)",
+      "startDate": "2026-10-13T17:10:35",
+      "endDate": "2026-10-13T17:10:35",
+      "locations": [
+        "IT",
+        "IT",
+        "IT"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:1",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "leak-639143",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS55884 (Orion Virtualisation Solutions Pty Limited)",
+      "startDate": "2026-10-13T17:07:23",
+      "endDate": "2026-10-13T17:49:29",
+      "locations": [
+        "AU",
+        "AU",
+        "AU"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:2",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "hijack-167824",
       "kind": "bgp_hijack",
       "eventType": "BGP_HIJACK",
-      "description": "疑似劫持 AS42861 (Foton Telecom CJSC)",
-      "startDate": "2026-10-13T02:11:33.288",
-      "endDate": "2026-10-13T02:11:33.288",
+      "description": "疑似劫持 AS6453 (TATA COMMUNICATIONS (AMERICA) INC)",
+      "startDate": "2026-10-13T17:04:35.365",
+      "endDate": "2026-10-13T18:04:08.079",
+      "locations": [
+        "US",
+        "BH"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:12",
+      "scope": "84.255.185.0/24, 88.201.6.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "leak-639144",
+      "kind": "bgp_leak",
+      "eventType": "BGP_LEAK",
+      "description": "路由泄漏 AS136106 (PT. Mega Akses Persada)",
+      "startDate": "2026-10-13T17:04:29",
+      "endDate": "2026-10-13T17:04:29",
+      "locations": [
+        "US",
+        "SG",
+        "ID"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "type:1",
+      "scope": "prefixes:2",
+      "linkedUrl": null,
+      "status": "ONGOING"
+    },
+    {
+      "id": "hijack-167823",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS134489 (S. B Link Network)",
+      "startDate": "2026-10-13T17:01:13.116",
+      "endDate": "2026-10-13T17:02:00.015",
+      "locations": [
+        "PK",
+        "PK"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:4",
+      "scope": "203.128.24.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167822",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS24186 (RailTel Corporation of India Ltd.)",
+      "startDate": "2026-10-13T16:56:12.741",
+      "endDate": "2026-10-13T17:02:32.791",
+      "locations": [
+        "IN",
+        "IN"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:4",
+      "scope": "103.212.30.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167819",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS45820 (TTSL-ISP DIVISION)",
+      "startDate": "2026-10-13T16:43:04.175",
+      "endDate": "2026-10-13T16:43:04.175",
+      "locations": [
+        "IN",
+        "IN"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:4",
+      "scope": "202.157.94.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167817",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS265080 (AD TELECOM)",
+      "startDate": "2026-10-13T16:08:26.216",
+      "endDate": "2026-10-13T17:33:13.681",
+      "locations": [
+        "BR",
+        "BR"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:8",
+      "scope": "45.180.35.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167816",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS19809 (NTT Global Networks Incorporated)",
+      "startDate": "2026-10-13T15:49:58.619",
+      "endDate": "2026-10-13T17:12:40.398",
+      "locations": [
+        "US",
+        "HK"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:2",
+      "scope": "119.31.174.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167815",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS12389 (PJSC Rostelecom)",
+      "startDate": "2026-10-13T15:37:58.645",
+      "endDate": "2026-10-13T15:37:58.645",
       "locations": [
         "RU",
         "RU"
       ],
       "locationNames": [],
       "outageCause": null,
-      "outageType": "confidence:10",
-      "scope": "77.91.65.0/24",
+      "outageType": "confidence:4",
+      "scope": "91.223.108.0/24",
       "linkedUrl": null,
       "status": "ACTIVE"
+    },
+    {
+      "id": "hijack-167813",
+      "kind": "bgp_hijack",
+      "eventType": "BGP_HIJACK",
+      "description": "疑似劫持 AS22866 (AECOM)",
+      "startDate": "2026-10-13T15:29:04.932",
+      "endDate": "2026-10-13T17:12:40.392",
+      "locations": [
+        "US",
+        "US"
+      ],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "confidence:2",
+      "scope": "63.70.138.0/24",
+      "linkedUrl": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "a4d1fd52-43cb-42d1-81e5-9051f0a0bf1c",
+      "kind": "anomaly",
+      "eventType": "TRAFFIC_ANOMALY",
+      "description": "Digicel Haiti",
+      "startDate": "2026-10-13T06:30:00Z",
+      "endDate": "2026-10-13T08:00:00Z",
+      "locations": [],
+      "locationNames": [],
+      "outageCause": null,
+      "outageType": "AS",
+      "scope": "Digicel Haiti",
+      "linkedUrl": null,
+      "status": "VERIFIED"
     },
     {
       "id": "994d9b10-4645-4cb2-814a-dd011fbc28fe",
@@ -2562,7 +2596,7 @@
       "id": "1684",
       "kind": "outage",
       "eventType": "OUTAGE",
-      "description": "Yandex, Russia's biggest internet company, shut down its data center in Sasovo, Ryazan, after a drone strike started a fire there.",
+      "description": "Yandex, Russia's biggest internet company, shut down its data centers in Sasovo, Ryazan, and later in Vladimir after drone strikes damaged both facilities.",
       "startDate": "2026-10-07T22:30:00Z",
       "endDate": null,
       "locations": [],

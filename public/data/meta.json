@@ -1,10 +1,14 @@
 {
-  "fetchedAt": "2026-11-14T05:46:11.672Z",
+  "fetchedAt": "2026-11-14T13:16:27.976Z",
   "source": "radar",
   "regions": [
     "cn",
     "us",
     "eu"
   ],
-  "errors": []
+  "errors": [
+    "iqi: HTTP 429 for /radar/quality/iqi/summary",
+    "dnsTrend: HTTP 429 for /radar/dns/timeseries",
+    "AI bots primary path failed (HTTP 429 for /radar/ai/bots/summary/USER_AGENT); used legacy path"
+  ]
 }
